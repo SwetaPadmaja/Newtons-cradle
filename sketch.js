@@ -62,7 +62,7 @@ rope5.display();
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
 
-	  Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-10,y:-10});
+	  Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-10,y:-25});
 
 	}
 }
